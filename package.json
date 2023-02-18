@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/typescript/bin/tsc /Users/ajeerkhan/workspaces/personal/sdk-7x/ak-typescript-client/src/client/geocoding-npm-client.ts",
-    "run-app": " GEOCODE_BASE_URL=https://api.7x.ax GEOCODE_API_URL=/geocode/v1 GEOCODE_API_KEY=44bed54b990108565360d420f7ec3d8a node /Users/ajeerkhan/workspaces/personal/sdk-7x/ak-typescript-client/src/client/geocoding-npm-client.js"
+    "build": "./node_modules/typescript/bin/tsc ./src/client/geocoding-npm-client.ts",
+    "test": " GEOCODE_BASE_URL=https://api.7x.ax GEOCODE_API_URL=/geocode/v1 GEOCODE_API_KEY=44bed54b990108565360d420f7ec3d8a node ./src/client/geocoding-npm-client.js"
   },
   "keywords": [],
   "author": "",
