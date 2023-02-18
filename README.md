@@ -24,5 +24,7 @@ Step #3. Generate the client.js file
  Step #4. Test the client
  ```
  npm run test
+ npm run test-geocode
+ npm run test-timezone
  
  ```
