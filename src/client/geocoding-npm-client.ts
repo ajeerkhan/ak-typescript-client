@@ -7,7 +7,7 @@ try {
       apiUrl: '/geocode/v1',
       baseUrl : 'https://api.7x.ax'
    };
-   geocoding.geocode("chennai", options)
+   geocoding.geocode("chennai")
    //geocoding.search("madurai", options)
    //geocoding.reverse("9.122965","78.411352", options)
    .then((value)=>{
