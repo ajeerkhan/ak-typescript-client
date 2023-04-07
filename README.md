@@ -1,5 +1,5 @@
 # ak-typescript-client
-Node client application which consume the sdk ak-typescript-library.
+Node client application which consumes the sdk ak-typescript-library.
 
 # How to use
  Perform series of action below to see the result
